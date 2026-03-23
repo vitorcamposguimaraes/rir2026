@@ -141,8 +141,8 @@ a {
 }
 
 .brand-dot {
-  width: 14px;
-  height: 14px;
+  width: 25px;
+  height: 25px;
   background: linear-gradient(135deg, var(--red), #ff7a70);
   border-radius: 50%;
   box-shadow: 0 0 18px rgba(225, 6, 0, 0.7);
