@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laboratório de Experiência de Marca</title>
+  <meta name="description" content="Página do Laboratório de Experiência de Marca: observação, criação, análise e formação aplicada em Brand Experience." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles_lab_criativo.css"/>
+</head>
+<body>
+
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+  <div class="bg-grid"></div>
+
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-3" href="index.html">
+        <span class="brand-icon"><i>⬅</i></span>
+        <span class="brand-text-wrap">
+          <strong>Voltar</strong>
+          <small>ao Início</small>
+        </span>
+      </a>
+
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Alternar navegação">
+        <span><i class="bi bi-list"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#sobre">O laboratório</a></li>
+          <li class="nav-item"><a class="nav-link" href="#objetivos">Objetivos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#eixos">Eixos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#metodologia">Metodologia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#alunos">Aplicação prática</a></li>
+          <li class="nav-item"><a class="nav-link" href="#entregas">Entregas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#mercado">Mercado</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-brand" href="#futuro">Visão de futuro</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero-section d-flex align-items-center">
+    <div class="container position-relative">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <span class="eyebrow"><i class="bi bi-lightning-charge-fill"></i> Núcleo autoral de observação, formação e criação</span>
+          <h1 class="hero-title">Laboratório de <span>Experiência de Marca</span></h1>
+          <p class="hero-text">
+            Um espaço dedicado à experimentação, análise crítica e produção aplicada em <strong>Brand Experience</strong>, conectando
+            <strong>mercado, ensino, pesquisa, audiovisual e design</strong> em torno de experiências reais, festivais, ativações e narrativas de marca.
+          </p>
+
+          <div class="hero-actions d-flex flex-wrap gap-3">
+            <a href="#sobre" class="btn btn-brand btn-lg">Explorar página</a>
+            <a href="#alunos" class="btn btn-outline-light btn-lg ghost-btn">Ver aplicação com alunos</a>
+          </div>
+
+          <div class="hero-metrics row g-3 mt-4">
+            <div class="col-sm-4">
+              <div class="metric-card glass-card">
+                <h3>Pesquisa</h3>
+                <p>Observação crítica de ativações, estandes, jornadas e ecossistemas experienciais.</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="metric-card glass-card">
+                <h3>Criação</h3>
+                <p>Desenvolvimento de projetos, conteúdos, ideias e repertórios de inovação aplicada.</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="metric-card glass-card">
+                <h3>Formação</h3>
+                <p>Integração entre teoria, prática, audiovisual, design e experiências reais de mercado.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="hero-visual-wrap">
+            <div class="hero-image-card floating-card">
+              <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80" alt="Público em evento ao vivo com experiência de marca" class="img-fluid main-hero-image">
+            </div>
+            <div class="floating-badge badge-1 glass-card">
+              <i class="bi bi-camera-reels"></i>
+              <span>Cobertura audiovisual</span>
+            </div>
+            <div class="floating-badge badge-2 glass-card">
+              <i class="bi bi-diagram-3"></i>
+              <span>Jornadas e ativações</span>
+            </div>
+            <div class="floating-badge badge-3 glass-card">
+              <i class="bi bi-mortarboard"></i>
+              <span>Mercado + ensino</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="section-block">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="section-intro">
+              <span class="section-tag">1. O que é o laboratório</span>
+              <h2>Mais do que um site: um núcleo de observação, criação, análise e formação</h2>
+              <p>
+                O <strong>Laboratório de Experiência de Marca</strong> é um espaço autoral de experimentação e reflexão sobre como marcas constroem presença,
+                relacionamento, emoção e valor por meio de ativações, eventos, estandes, festivais e conteúdos imersivos.
+              </p>
+              <p>
+                Sua proposta é unir <strong>leitura estratégica do mercado</strong>, <strong>produção criativa</strong>, <strong>análise acadêmica</strong> e
+                <strong>formação aplicada</strong>, transformando experiências reais em conhecimento, repertório visual, documentação e inovação pedagógica.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-stack">
+              <div class="image-card image-card-main glass-outline">
+                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80" alt="Show e experiência imersiva em festival" class="img-fluid">
+              </div>
+              <div class="image-card image-card-small glass-outline">
+                <img src="https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1000&q=80" alt="Equipe criativa analisando projeto" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="objetivos" class="section-block section-dark-soft">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="section-tag">2. Objetivos do laboratório</span>
+          <h2>Direções que estruturam o posicionamento do núcleo</h2>
+          <p>Os objetivos foram organizados para fortalecer análise, repertório, prática de mercado e produção de conhecimento aplicado.</p>
+        </div>
+
+        <div class="row g-4 mt-2">
+          <div class="col-md-6 col-xl-4">
+            <div class="feature-card glass-card h-100">
+              <div class="feature-icon"><i class="bi bi-broadcast-pin"></i></div>
+              <h3>Estudar ativações e experiências</h3>
+              <p>Investigar como marcas criam presença relevante, memorável e sensorial em diferentes contextos e formatos.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="feature-card glass-card h-100">
+              <div class="feature-icon"><i class="bi bi-binoculars"></i></div>
+              <h3>Observar festivais e eventos</h3>
+              <p>Mapear dinâmicas, fluxos, pontos de contato, cenografia, narrativa e comportamento do público em campo.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="feature-card glass-card h-100">
+              <div class="feature-icon"><i class="bi bi-palette2"></i></div>
+              <h3>Desenvolver repertório visual</h3>
+              <p>Construir uma base crítica e estética para leitura de experiências, branding, design espacial e audiovisual.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="feature-card glass-card h-100">
+              <div class="feature-icon"><i class="bi bi-people"></i></div>
+              <h3>Conectar alunos ao mercado</h3>
+              <p>Aproximar estudantes de contextos reais, processos profissionais e desafios contemporâneos de comunicação.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="feature-card glass-card h-100">
+              <div class="feature-icon"><i class="bi bi-journal-richtext"></i></div>
+              <h3>Gerar documentação</h3>
+              <p>Produzir registros, relatórios, vídeos, estudos e materiais que transformem prática em conhecimento compartilhável.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="feature-card glass-card h-100">
+              <div class="feature-icon"><i class="bi bi-lightbulb"></i></div>
+              <h3>Estimular inovação educacional</h3>
+              <p>Criar metodologias vivas que integrem observação, criação, análise crítica e produção aplicada em sala.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="eixos" class="section-block">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="section-tag">3. Eixos de atuação</span>
+          <h2>Áreas que organizam a prática do laboratório</h2>
+        </div>
+
+        <div class="row g-4 mt-1">
+          <div class="col-md-6 col-lg-4">
+            <div class="axis-card tilt-card h-100">
+              <span class="axis-number">01</span>
+              <h3>Pesquisa</h3>
+              <p>Levantamento de referências, tendências, contextos e fundamentos para compreender a experiência de marca contemporânea.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="axis-card tilt-card h-100">
+              <span class="axis-number">02</span>
+              <h3>Análise de cases</h3>
+              <p>Estudo crítico de marcas, estandes, ativações e festivais para identificar estratégias, acertos, narrativas e diferenciais.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="axis-card tilt-card h-100">
+              <span class="axis-number">03</span>
+              <h3>Criação de projetos</h3>
+              <p>Concepção de propostas, jornadas, experiências, roteiros, visualidades e caminhos estratégicos para marcas e eventos.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="axis-card tilt-card h-100">
+              <span class="axis-number">04</span>
+              <h3>Cobertura audiovisual</h3>
+              <p>Registro em vídeo e imagem das experiências observadas, transformando campo em narrativa, conteúdo e memória visual.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="axis-card tilt-card h-100">
+              <span class="axis-number">05</span>
+              <h3>Inovação educacional</h3>
+              <p>Aplicação de metodologias que aproximam os estudantes das dinâmicas reais do setor criativo e do Brand Experience.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="axis-card tilt-card h-100">
+              <span class="axis-number">06</span>
+              <h3>Produção de conteúdo</h3>
+              <p>Publicação de análises, registros, reflexões e materiais autorais voltados à difusão de conhecimento aplicado.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="metodologia" class="section-block section-dark-soft">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5">
+            <div class="section-intro">
+              <span class="section-tag">4. Metodologia</span>
+              <h2>Como o laboratório funciona na prática</h2>
+              <p>
+                O laboratório opera a partir de um fluxo integrado entre observação, análise, criação, registro e publicação.
+                Cada etapa transforma experiência em repertório, repertório em reflexão e reflexão em produção aplicada.
+              </p>
+            </div>
+            <div class="timeline-visual glass-card mt-4">
+              <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="Equipe colaborando em planejamento criativo" class="img-fluid rounded-4">
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="process-line">
+              <div class="process-step glass-card">
+                <div class="process-icon"><i class="bi bi-geo-alt"></i></div>
+                <div>
+                  <h3>Observação de campo</h3>
+                  <p>Leitura in loco de ativações, fluxos, público, atmosfera, narrativa espacial e comportamento dos participantes.</p>
+                </div>
+              </div>
+              <div class="process-step glass-card">
+                <div class="process-icon"><i class="bi bi-graph-up-arrow"></i></div>
+                <div>
+                  <h3>Análise estratégica</h3>
+                  <p>Interpretação crítica de objetivos, posicionamento, experiência do usuário, diferenciais e coerência de marca.</p>
+                </div>
+              </div>
+              <div class="process-step glass-card">
+                <div class="process-icon"><i class="bi bi-camera-video"></i></div>
+                <div>
+                  <h3>Produção de vídeos e registros</h3>
+                  <p>Captação de imagens, entrevistas, bastidores, percursos e materiais de apoio para memória e documentação.</p>
+                </div>
+              </div>
+              <div class="process-step glass-card">
+                <div class="process-icon"><i class="bi bi-vector-pen"></i></div>
+                <div>
+                  <h3>Desenvolvimento de ideias</h3>
+                  <p>Criação de propostas, mapas de jornada, insights, conceitos visuais e caminhos para novas experiências.</p>
+                </div>
+              </div>
+              <div class="process-step glass-card">
+                <div class="process-icon"><i class="bi bi-book"></i></div>
+                <div>
+                  <h3>Reflexão acadêmica</h3>
+                  <p>Articulação entre teoria e prática por meio de análise, debate, curadoria de referências e construção de repertório.</p>
+                </div>
+              </div>
+              <div class="process-step glass-card">
+                <div class="process-icon"><i class="bi bi-globe2"></i></div>
+                <div>
+                  <h3>Publicação de conteúdo</h3>
+                  <p>Organização dos resultados em sites, estudos, relatórios, artigos, vídeos e materiais autorais para circulação pública.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="alunos" class="section-block">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="section-tag">5. Aplicação prática com alunos</span>
+          <h2>Uma ponte real entre formação acadêmica e experiência de mercado</h2>
+          <p>Essa dimensão torna o laboratório especialmente forte: o conhecimento é construído por meio de participação, produção e vivência.</p>
+        </div>
+
+        <div class="row g-4 align-items-stretch mt-2">
+          <div class="col-lg-7">
+            <div class="student-panel glass-card h-100">
+              <div class="row g-4 align-items-center">
+                <div class="col-md-6">
+                  <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" alt="Estudantes colaborando em projeto" class="img-fluid rounded-4 shadow-lg">
+                </div>
+                <div class="col-md-6">
+                  <h3>Aprender fazendo</h3>
+                  <p>
+                    Os alunos participam de um ecossistema em que teoria, observação, registro audiovisual, repertório crítico e criação se encontram.
+                    O laboratório transforma eventos e ativações em campo de aprendizagem viva.
+                  </p>
+                  <ul class="check-list">
+                    <li><i class="bi bi-check-circle-fill"></i> Participação em festivais e eventos</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Produção de vídeos sobre estandes e marcas</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Aprendizagem baseada em projeto</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Integração entre teoria e prática</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Desenvolvimento de portfólio autoral</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="quote-card glass-card h-100">
+              <span class="quote-mark"><i class="bi bi-quote"></i></span>
+              <p>
+                O laboratório cria um ambiente em que o estudante deixa de ser apenas observador para se tornar
+                <strong>analista, criador, documentarista e participante ativo</strong> de experiências reais de marca.
+              </p>
+              <div class="mini-stats">
+                <div><strong>Teoria</strong><span>Fundamentação crítica</span></div>
+                <div><strong>Prática</strong><span>Vivência em campo</span></div>
+                <div><strong>Portfólio</strong><span>Entrega aplicada</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="entregas" class="section-block section-dark-soft">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="section-tag">6. Possíveis entregas do laboratório</span>
+          <h2>Formatos que transformam observação em documentação e valor</h2>
+        </div>
+
+        <div class="row g-4 mt-2">
+          <div class="col-6 col-md-4 col-xl-3">
+            <div class="deliverable-card glass-card h-100">
+              <i class="bi bi-file-earmark-bar-graph"></i>
+              <h3>Relatórios</h3>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3">
+            <div class="deliverable-card glass-card h-100">
+              <i class="bi bi-film"></i>
+              <h3>Documentários curtos</h3>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3">
+            <div class="deliverable-card glass-card h-100">
+              <i class="bi bi-journals"></i>
+              <h3>Estudos de caso</h3>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3">
+            <div class="deliverable-card glass-card h-100">
+              <i class="bi bi-pencil-square"></i>
+              <h3>Artigos</h3>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3">
+            <div class="deliverable-card glass-card h-100">
+              <i class="bi bi-window"></i>
+              <h3>Sites temáticos</h3>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3">
+            <div class="deliverable-card glass-card h-100">
+              <i class="bi bi-signpost-split"></i>
+              <h3>Mapas de jornadas</h3>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3">
+            <div class="deliverable-card glass-card h-100">
+              <i class="bi bi-megaphone"></i>
+              <h3>Propostas de ativações</h3>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3">
+            <div class="deliverable-card glass-card h-100">
+              <i class="bi bi-collection-play"></i>
+              <h3>Conteúdo multimídia</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mercado" class="section-block">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6">
+            <div class="section-intro">
+              <span class="section-tag">7. Conexão com mercado</span>
+              <h2>Um ponto de encontro entre educação, marcas, festivais e inovação</h2>
+              <p>
+                O laboratório aproxima diferentes territórios de atuação e mostra que o Brand Experience pode ser analisado,
+                ensinado, documentado e desenvolvido como campo estratégico de criação contemporânea.
+              </p>
+            </div>
+            <div class="market-tags mt-4">
+              <span>Educação</span>
+              <span>Marcas</span>
+              <span>Festivais</span>
+              <span>Agências</span>
+              <span>Inovação</span>
+              <span>Audiovisual</span>
+              <span>Design</span>
+              <span>Conteúdo</span>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="market-panel glass-card">
+              <div class="market-item">
+                <i class="bi bi-buildings"></i>
+                <div>
+                  <h3>Marcas e experiências</h3>
+                  <p>Leitura de posicionamento, presença, engajamento e narrativa sensorial.</p>
+                </div>
+              </div>
+              <div class="market-item">
+                <i class="bi bi-music-note-beamed"></i>
+                <div>
+                  <h3>Festivais e eventos</h3>
+                  <p>Observação de campo em contextos com alta intensidade de interação e ativação.</p>
+                </div>
+              </div>
+              <div class="market-item">
+                <i class="bi bi-camera"></i>
+                <div>
+                  <h3>Audiovisual e documentação</h3>
+                  <p>Transformação da experiência em registro, conteúdo, memória e portfólio aplicado.</p>
+                </div>
+              </div>
+              <div class="market-item">
+                <i class="bi bi-braces-asterisk"></i>
+                <div>
+                  <h3>Design e estratégia</h3>
+                  <p>Construção de propostas, análises visuais, jornadas, interfaces e projetos experienciais.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="futuro" class="section-block future-section">
+      <div class="container">
+        <div class="future-banner glass-card">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-8">
+              <span class="section-tag">8. Visão de futuro</span>
+              <h2>Consolidar-se como referência nacional em observação e produção aplicada de Experiência de Marca</h2>
+              <p>
+                A visão do laboratório é ampliar sua presença como plataforma autoral de análise, documentação, criação e formação,
+                tornando-se uma referência no diálogo entre <strong>universidade, mercado, festivais, audiovisual e inovação</strong>.
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a href="#home" class="btn btn-brand btn-lg">Voltar ao topo <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-7">
+          <h3>Laboratório de Experiência de Marca</h3>
+          <p>
+            Página conceitual para apresentação institucional, autoral e acadêmica do laboratório.
+            Ideal para integração ao seu ecossistema em GitHub Pages.
+          </p>
+        </div>
+        <div class="col-lg-5 text-lg-end">
+          <a href="#sobre" class="footer-link me-3">Explorar conteúdo</a>
+          <a href="#futuro" class="footer-link">Visão de futuro</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
